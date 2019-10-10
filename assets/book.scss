@@ -20,11 +20,8 @@ body {
 body {
   color: $body-font-color;
   background: $body-background;
-
-
   font-weight: $body-font-weight;
   text-align: justify;
-
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -106,7 +103,7 @@ ul.pagination {
 
 .book-menu {
   flex: 0 0 $menu-width;
-  font-size: $font-size-14;
+  font-size: $font-size-16;
 
   nav {
     width: $menu-width;
