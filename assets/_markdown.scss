@@ -82,7 +82,8 @@
 
   hr {
     height: $padding-1;
-    border: none;
+    display: block;
+    border-style: insert;
     background: $gray-200;
   }
 
