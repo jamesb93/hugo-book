@@ -72,6 +72,7 @@ aside nav ul {
 
   ul {
     padding-left: $padding-16;
+    color: $body-font-color;
   }
 }
 
@@ -161,7 +162,8 @@ ul.pagination {
     border: 0;
     border-radius: $padding-4;
 
-    background: $gray-100;
+    background: $gray-500;
+    color: $body-font-color;
 
     &:required + .book-search-spinner {
       display: block;
@@ -188,6 +190,7 @@ ul.pagination {
 .book-toc {
   flex: 0 0 $toc-width;
   font-size: $font-size-12;
+  color: $body-font-color;
 
   nav {
     width: $toc-width;

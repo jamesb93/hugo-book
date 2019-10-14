@@ -24,12 +24,12 @@ $gray-800: #343a40 !default;
 $gray-900: #212529 !default;
 $black: #000 !default;
 
-$color-link: #05b !default;
-$color-visited-link: #8440f1 !default;
-$color-dark-link: $gray-800 !default;
+$color-link: rgb(107, 161, 228) !default;
+$color-visited-link: #ccacff !default;
+$color-dark-link: $white !default;
 
-$body-background: rgb(243, 243, 243) !default;
-$body-font-color: $gray-800 !default;
+$body-background: #424242 !default;
+$body-font-color: $white !default;
 $body-font-weight: normal !default;
 
 $body-min-width: 20rem !default;
