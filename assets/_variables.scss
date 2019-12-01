@@ -24,9 +24,10 @@ $gray-800: #343a40 !default;
 $gray-900: #212529 !default;
 $black: #000 !default;
 
-$color-link: #ffffff !default;
-$color-visited-link: #ccacff !default;
-$color-dark-link: #ffffff !default;
+
+$color-link: #77a9c0 !default; // The colour of links in the content
+$color-visited-link: #ccacff !default; // Visited links in content
+$color-dark-link: #ffffff !default; // Visited links in content
 
 $body-background: #424242 !default;
 $body-font-color: $white !default;
