@@ -62,3 +62,13 @@
   overflow-x: hidden;
   overflow-y: auto;
 }
+
+@mixin dark-links {
+  a {
+    color: $color-dark-link;
+  }
+
+  a.active {
+    color: $color-link;
+  }
+}
