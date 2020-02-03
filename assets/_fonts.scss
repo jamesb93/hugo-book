@@ -1,24 +1,28 @@
 @font-face {
-  font-family: 'inconsolatabold';
-  src: url('fonts/inconsolata-bold-webfont.woff2') format('woff2'),
-       url('fonts/inconsolata-bold-webfont.woff') format('woff');
+  font-family: 'IBMPlexBold';
+  src: url('fonts/IBMPlexSans-Bold.ttf');
+  font-weight: normal;
+  font-style: bold;
+}
+
+@font-face {
+  font-family: 'IBMPlexRegular';
+  src: url('fonts/IBMPlexSans-Regular.ttf');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'inconsolataregular';
-  src: url('fonts/inconsolata-regular-webfont.woff2') format('woff2'),
-       url('fonts/inconsolata-regular-webfont.woff') format('woff');
+  font-family: 'IBMPlexMonoRegular';
+  src: url('fonts/IBMPlexMono-Regular.ttf');
   font-weight: normal;
   font-style: normal;
 }
 
-
 body {
-  font-family: 'inconsolataregular', sans-serif;
+  font-family: 'IBMPlexRegular', sans-serif;
 }
 
 code {
-  font-family: 'incsonsolataregular', monospace;
+  font-family: 'IBMPlexMonoRegular', monospace;
 }
