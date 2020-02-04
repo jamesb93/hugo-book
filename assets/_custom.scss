@@ -1,22 +1,3 @@
-/* To be overridden by theme user */
-// @import "variables";
-.center-image {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;
-  }
+/* You can add custom styles here. */
 
-.seper { 
-    display: block;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    margin-left: auto;
-    margin-right: auto;
-    border-style: inset;
-    border-width: 1px;
-}
-
-.oneline {
-  display: inline-block;
-}
+// @import "plugins/numbered";
