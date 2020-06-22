@@ -8,6 +8,7 @@ body {
   min-width: $body-min-width;
   color: $body-font-color;
   background: $body-background;
+  text-align:justify;
 
   letter-spacing: 0.33px;
   font-weight: $body-font-weight;
@@ -42,6 +43,7 @@ aside nav ul {
   padding: 0;
   margin: 0;
   list-style: none;
+  text-align: left;
 
   li {
     margin: 1em 0;
